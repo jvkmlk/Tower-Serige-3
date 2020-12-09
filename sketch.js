@@ -7,7 +7,7 @@ var engine, world;
 var holder,ball,ground;
 var stand1,stand2;
 var ball;
-var slingShot;
+var slingshot;
 var polygon_img;
 
 var score = 0;
@@ -70,7 +70,7 @@ function setup() {
   ball = Bodies.circle(200,200,20);
   World.add(world,ball);
 
-  slingShot = new SlingShot(this.ball,{x:200,y:200});
+  slingshot = new SlingShot(this.ball,{x:200,y:200});
 
 }
 
